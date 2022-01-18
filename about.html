@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <title> About | MOJO </title>
+</head>
+<body>
+    <div class="header">
+    <div class= "container">
+    <div class="navbar">
+    <div class="logo"><a  href="index.html"> <img src="./images/Inkedmojo1.jpg" width="175px"></a> </div>
+    <nav class="nav">
+        <ul id="menuItems">
+            <li> <a href="index.html">Home</a> </li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+
+
+    </nav>
+    <a href="cart.html"><img src = "./images/cart.png" width="30px" height="30px" ></a>
+<img src = "./images/menu.png" class="menu-icon" onclick="menutoggle()" >
+
+
+</div>
+</div>
+    
+
+    <div class="container">
+        <div class="row">
+        <div class="col-7">
+            <h1>About Us</h1>
+        <p>Our Perfumes are made when a carefully created blend of essential scented oils are mixed in solvents - typically alcohol and water. The life cycle of a fragrance is three-timed (think of it as a disappearing pyramid of notes), starting with the top, moving onto the heart, and finally settling with the base notes.</p>
+        <small>All perfumes are not alike. 
+
+            Did you know that perfume can come in different concentrations? And these concentrations actually form different categories of perfumes. These concentrations also affect the price point for the perfume. 
+            
+            Given this, it is easy to get confused about what each type of perfume means, and therefore what you should choose.
+            
+            The Different Perfume Categories
+            There are five main categories of Perfume:  
+            
+            Perfume or Parfum, 
+            
+            Eau de Perfume or Eau de Parfum, 
+            
+            Eau de Toilette, 
+            
+            Eau de Cologne, 
+            
+            and the less well known Eau Fraiche. 
+            
+            And we would like to add a new category, which is Perfume Oil. That makes SIX categories!
+            
+            The main difference lies in the concentration of essential oils in the fragrance base. The perfumes “base” can be water, alcohol or oil based. 
+            
+            When we mention the concentrations of essential oils in the different categories, it is only in natural perfumes that those essential oils are guaranteed to be made directly from pure essential oils. With other mainstream fragrances, those fragrance blends are made from synthetic “perfume extracts” and are often purely man-made and not natural. Some of these “perfume extracts” can also come from animals - see our article  ‘A Guide to Vegan Non-Toxic Perfume’ about animal scents and how they are used in perfumes. 
+            
+            Therefore, always check the ingredients and certifications of the perfumes you purchase, to ensure they are all 100% natural and vegan, if that is important to you. 
+            
+            I hope this guide is helpful to you, so you can distinguish between them all.</small>
+        </div>
+        <div class="col-7">
+            <img src="./images/bg2.jpg">
+        </div>
+    </div>
+    </div>
+</div>
+<!---footer-->
+
+<div class="footer">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="footer-col-1">
+                <h3> Download our App</h3>
+                <p>Download App for Android & IOS mobile phones.</p>
+                <div class="app-logo">
+                    <img src="./images/play-store.png">
+                    <img src="./images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/mojo1.jpg">
+                <p>Our purpose is to supply luxury fragrances at a cheaper rate by<br> providing the option of decant sizes like 20ml 30ml , etc.</p>
+
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &#169; 2022 - Mohit Vijayan</p>
+    </div>
+</div>
+
+<script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+
+   
+
+    function menutoggle(){
+        if(menuItems.style.maxHeight==="0px"){
+            menuItems.style.maxHeight="200px";
+        }else{
+            menuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
